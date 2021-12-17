@@ -497,8 +497,9 @@
   
   .logo {
       position: relative;
-      left: calc(50% - 190px);
-      max-width: 400px;
+      top: 10px;
+      left: calc(50% - 175px);
+      max-width: 350px;
       z-index: 10;
       pointer-events: none;
   }
@@ -748,7 +749,8 @@
         margin-bottom: 20vh;
         position: relative;
         z-index: 2;
-        left: calc(50% - 200px);
+        left: calc(50% - 150px);
+        max-width: 300px;
       }
   
       .logo img {
@@ -962,9 +964,9 @@
 
     .logo {
         position: absolute;
-        width: 200px;        
+        width: 240px;
         top: 92px;
-        left: 64px;
+        left: 40px;
     }
 
     .circle {
